@@ -428,3 +428,9 @@ Once deployed, the API is available at:
 - Add integration and unit tests for repositories and services.
 - Introduce a standardized error response format across all endpoints.
 - Provide Docker configuration (for both the application and MySQL) to simplify local setup.
+
+
+
+> 🔗 Backend repo: https://github.com/nadjaradojicic/travel-guide-backend  
+> 🔗 Frontend repo: https://github.com/nadjaradojicic/travel-guide-frontend
+
