@@ -420,19 +420,19 @@ Once deployed, the API is available at:
 
 ## Demo accounts (dev only)
 
-Use these **demo credentials** for local testing. **Do NOT use in production.**
+Use these **demo accounts** for local testing or to seed your MySQL database.  
+**Do NOT use in production.**
 
-- Admin  
-  email: nadjaradojicic1@gmail.com 
-  password: 123
+### Seed script (example)
+You can populate your database with sample users by running:
 
-- Creator  
-  email: katarinaradojicic@gmail.com
-  password: Katarina123
+```sql
+INSERT INTO users (name, surname, email, role, hashedPassword, status)
+VALUES
+('Admin',   'User', 'admin@example.com',   'ADMIN',   SHA2('Admin123!', 256),   TRUE),
+('Creator', 'User', 'creator@example.com', 'CREATOR', SHA2('Creator123!', 256), TRUE),
+('Regular', 'User', 'user@example.com',    'USER',    SHA2('User123!', 256),    TRUE);
 
-- User  
-  email: nenadneso638@gmail.com
-  password: 123
 
 
 ---
