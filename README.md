@@ -418,6 +418,23 @@ Once deployed, the API is available at:
 
 - `http://localhost:<port>/<context-path>/api`
 
+## Demo accounts (dev only)
+
+Use these **demo credentials** for local testing. **Do NOT use in production.**
+
+- Admin  
+  email: nadjaradojicic1@gmail.com 
+  password: 123
+
+- Creator  
+  email: katarinaradojicic@gmail.com
+  password: Katarina123
+
+- User  
+  email: nenadneso638@gmail.com
+  password: 123
+
+
 ---
 
 ## Possible Improvements
